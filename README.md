@@ -16,5 +16,5 @@ Project built with the help of didactic videos from the YouTube platform.
 
 ## Contact
 
-alyssonrenacc@gmail.com
+alyssonrenacc@gmail.com <br>
 [Linkedin](https://www.linkedin.com/in/alyssonrenan)
