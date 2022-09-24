@@ -244,6 +244,15 @@ input::placeholder {
     transform: translateX(-100%);
     opacity: 1;
   }
+
+  .text-mobile {
+    display: inline;
+  }
+
+  .text-mobile a {
+    font-weight: 900;
+    color: inherit;
+  }
 }
 
 @media (max-width: 480px) {
@@ -258,14 +267,5 @@ input::placeholder {
     display: grid;
     gap: 5px;
     padding: 98px 0;
-  }
-
-  .text-mobile {
-    display: block;
-  }
-
-  .text-mobile a {
-    font-weight: 900;
-    color: inherit;
   }
 }
