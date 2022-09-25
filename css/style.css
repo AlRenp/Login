@@ -27,6 +27,8 @@ input {
   background: #f3f3f3;
   border-style: none;
   margin: 5px 0;
+  padding: 9px 20px;
+  outline: unset;
 }
 
 main {
@@ -100,11 +102,6 @@ main {
   margin: 15px 0;
 }
 
-input::placeholder {
-  padding: 0 15px;
-  color: #a0a0a0;
-}
-
 .btn {
   font-family: "Red Hot Display", sans-serif;
   font-weight: 600;
@@ -151,24 +148,28 @@ input::placeholder {
   background-color: #ff3131;
   width: 50%;
   height: 100%;
-  padding: 135px 42px;
-  z-index: 12;
   transform: translateX(100%);
 }
 
+.first-card {
+  padding: 135px 42px;
+  z-index: 12;
+}
+
 .second-card {
-  background-color: #ff3131;
-  width: 50%;
-  height: 100%;
-  padding: 135px 41px;
   z-index: 11;
-  transform: translateX(100%);
+  padding: 135px 41px;
 }
 
 .cards .btn {
   color: white;
   border: 2px solid white;
   margin-top: 20px;
+}
+
+.cards .btn:hover {
+  background-color: white;
+  color: #ff3131;
 }
 
 .container.move-card .login {
@@ -185,11 +186,13 @@ input::placeholder {
 
 .container.container.move-card .first-card {
   transform: translateX(0%);
+  z-index: 11;
   opacity: 0;
 }
 
 .container.container.move-card .second-card {
   transform: translateX(0%);
+  z-index: 12;
   opacity: 1;
 }
 
