@@ -6,7 +6,7 @@ Project built with the help of didactic videos from the YouTube platform.
 
 [View Project](https://alrenp.github.io/Login/)
 
-###Techs
+### Techs
 
 - HTML
 - CSS
